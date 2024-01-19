@@ -43,3 +43,22 @@
   ::-webkit-scrollbar-thumb:hover{
     background: #bbb;
   }
+
+  /*button design*/
+  .btn{
+    font-weight: 400;
+    padding: 12px 20px;
+    background: #efefef;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+ }
+
+  .btn>i{
+    margin-left: 10px;
+ }
+.btn:hover{
+    background: var(--second-color);
+    color: var(--color-white);
+ }
