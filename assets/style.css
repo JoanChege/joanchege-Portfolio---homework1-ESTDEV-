@@ -27,4 +27,19 @@
   html{
     scroll-behavior: smooth;
   }
-  
+
+  /*scroll bar design*/
+  ::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 25px;
+  }
+  ::-webkit-scrollbar-track{
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: #ccc;
+    border-radius: 30px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background: #bbb;
+  }
