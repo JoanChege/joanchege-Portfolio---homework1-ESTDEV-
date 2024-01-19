@@ -1,2 +1,2 @@
 # joanchege-Portfolio--
-This a porfolio made using HTML, CSS &amp; JavaScript 
+This is a porfolio made using HTML, CSS &amp; JavaScript 
