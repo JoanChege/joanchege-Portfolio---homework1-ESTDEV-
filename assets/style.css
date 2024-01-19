@@ -62,3 +62,9 @@
     background: var(--second-color);
     color: var(--color-white);
  }
+
+ /*icon design*/
+ i{
+    font-size: 16px;
+ }
+
