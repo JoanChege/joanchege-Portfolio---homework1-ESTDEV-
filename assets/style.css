@@ -2,18 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&display=swap');
 
 /*set variables*/
-:root{
-    --body-color: rgb(250, 250, 250);
+:root {
+    --body-color: rgb(255, 255, 255); /* White for body */
     --color-white: rgb(255, 255, 255);
-    --text-color-second: rgb(68, 68, 68);
-    --text-color-third: rgb(30, 159, 171);
+    --text-color-second: rgb(64, 224, 208); /* Turquoise color for text */
+    --text-color-third: rgb(0, 197, 205); /* Matching turquoise color */
     --first-color: rgb(110, 87, 224);
     --first-color-hover: rgb(40, 91, 212);
     --second-color: rgb(0, 201, 255);
     --third-color: rgb(192, 166, 49);
     --first-shadow-color: rgba(0, 0, 0, 0.1);
-
 }
+
 *{
   padding: 0;
   margin: 0;
