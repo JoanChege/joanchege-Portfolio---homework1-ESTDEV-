@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <!--CSS-->
+        <link rel="stylesheet" href="assets\style.css">
+        <!--FAVICON-->
+        <link rel="shortcut icon" href="assets\favicon-16x16.png" type="image/x-icon">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <div class="container">
+            <!---Header-->
+               <nav id="header">
+                 <div class="nav-logo">
+                     <p class="nav-name">Portfolio</p>
+                     <span></span>
+                 </div>
+                 <div class="nav-menu" id="myNavMenu">
+                  <ul class="nav_menu_list">
+                      <li class="nav_list">
+                          <a href="#home" class="nav-link">Home</a>
+                          <div class="circle"></div>
+                      </li>
+                      <li class="nav_list">
+                          <a href="#about" class="nav-link">About</a>
+                          <div class="circle"></div>
+                      </li>
+                      <li class="nav_list">
+                          <a href="#projects" class="nav-link">Projects</a>
+                          <div class="circle"></div>
+                      </li>
+                      <li class="nav_list">
+                          <a href="#contact" class="nav-link">Contact</a>
+                          <div class="circle"></div>
+                      </li>
+                  </ul>
+              </div>
+               <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+          </nav>
+          <!--Home-->
+          <main class = "wrapper">
+            <!--featured-->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Joan Chege</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I am <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Learning front-end development to be a dedicated front-end devoloper who 
+                            crafts visually stunning and user-friendly websites.</p>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="assets\avatar.jpeg" alt="avatar">
+                    </div>
+                  </div>
+            </section>
+            <!--About-->
+            <section class="section" id="about">
+                <div class="top-header">
+                  <h1>About Me</h1>
+                </div>
+                <div class="row">
+                  <div class="col">
+                      <div class="about-info">
+                          <h3>My introduction</h3>
+                          <p>I am well-versed in HTML, CSS and JavaScript , and other cutting edge
+                             frameworks such as ReactJS and its libraries,which allows me to implement interactive features.                        
+                          </p>
+                          </div>
+                  </div>
+                  <div class="col">
+                      <div class="skills-box">
+                          <div class="skills-header">
+                              <h3>Frontend</h3>
+                          </div>
+                          <div class="skills-list">
+                              <span>HTML</span>
+                              <span>CSS</span>
+                              <span>Bootstrap</span>
+                              <span>JavaScript</span>
+                              <span>React</span>
+                          </div>
+                      </div>
+                      <div class="skills-box">
+                          <div class="skills-header">
+                              <h3>Backend</h3>
+                          </div>
+                          <div class="skills-list">
+                              <span>PHP</span>
+                              <span>JAVA</span>
+                              <span>Python</span>
+                              <span>NodeJS</span>
+                          </div>
+                      </div>
+                      <div class="skills-box">
+                          <div class="skills-header">
+                              <h3>Database</h3>
+                          </div>
+                          <div class="skills-list">
+                              <span>MySQL</span>
+                              <span>MongoDB</span>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </section>
+             <!--projects-->
+             <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                  <div class="project-box">
+                      <i class="uil uil-briefcase-alt"></i>
+                      <h3>Completed</h3>
+                      <label>3 Finished School Projects</label>
+                  </div>
+                  <div class="project-box">
+                      <i class="uil uil-award"></i>
+                      <h3>Experience</h3>
+                      <label>4 years of school work Experience</label>
+                  </div>
+                </div>
+             </section>
+             <!--contact-->
+             <section class="section" id="contact">
+                <div class="top-header">
+                  <h1>Get in touch</h1>
+                  <span>Do you have a project in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col_1">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: jncheg@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> Tel: +254712985749</p>
+                        </div>
+                    </div>
+                </div>
+             </section>
+         </main>
+        <!--footer-->
+        <footer>
+            <div class="top-footer">
+                <p>Joan Chege.</p>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Joan Chege</a> - All rights reserved</p>
+            </div>
+        </footer>
+        </div>
+        <!--typing js link-->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <!--scroll reveal js link-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!--main js-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+
