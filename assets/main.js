@@ -25,3 +25,7 @@ sr.reveal('.featured-text-btn',{delay: 200})
 sr.reveal('.social_icons',{delay: 200})
 sr.reveal('.featured-image',{delay: 300})
 
+//project
+sr.reveal('.project-box',{interval: 200})
+
+//about
