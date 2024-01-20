@@ -30,6 +30,7 @@ sr.reveal('.project-box',{interval: 200})
 
 
 //scroll animation that moves left to right
+//left
 const srLeft = ScrollReveal({
     origin: 'left',
     distance: '80px',
@@ -42,5 +43,14 @@ const srLeft = ScrollReveal({
   //contact
   sr.left.reveal('.contact-info',{delay: 100})
 
-  
+//right
+const srRight = ScrollReveal({
+    origin: 'right',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+  })
+
+  //skills
+  srRight.reveal('.skills-box',{delay: 100})
 
