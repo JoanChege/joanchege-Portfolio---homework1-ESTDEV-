@@ -28,4 +28,11 @@ sr.reveal('.featured-image',{delay: 300})
 //project
 sr.reveal('.project-box',{interval: 200})
 
-//about
+
+//scroll animation that moves left to right
+const srLeft = ScrollReveal({
+    origin: 'left',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+  })
