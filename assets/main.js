@@ -7,3 +7,14 @@ function myMenuFunction(){
         menuBtn.className = "nav-menu";
       }
 }
+
+
+//scroll animation
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true     
+})
+
+
