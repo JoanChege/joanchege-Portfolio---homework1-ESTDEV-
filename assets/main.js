@@ -40,4 +40,7 @@ const srLeft = ScrollReveal({
   //about
   srLeft.reveal('.about-info',{delay: 100})
   //contact
+  sr.left.reveal('.contact-info',{delay: 100})
+
+  
 
