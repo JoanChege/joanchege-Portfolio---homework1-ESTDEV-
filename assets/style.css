@@ -169,6 +169,7 @@ nav{
   font-size: 15px;
   margin-bottom: 30px;
   color: var(--text-color-second);
+  position: relative;
 }
 
 .scroll-btn{
