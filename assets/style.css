@@ -157,7 +157,7 @@ nav{
 }
 .featured-name{
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 200;
   color: var(--text-color-second);
   margin-block: 20px;
 }
