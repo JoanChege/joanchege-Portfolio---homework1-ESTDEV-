@@ -265,7 +265,7 @@ h3{
 .skills-list{
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 2.5px;
 }
 .skills-list span{
   font-size: 14px;
